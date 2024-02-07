@@ -29,7 +29,7 @@ public class EvenOdd
         int num;
         System.out.print("Enter a positive integer : ");
         num=read.nextInt();
-        EvenOdd obj=new EvenOddFun();
+        EvenOdd obj=new EvenOdd();
         obj.check(num);
         read.close();
     }
