@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class EvenOddFun
+public class EvenOdd
 {
     void check(int num)
     {
@@ -29,7 +29,7 @@ public class EvenOddFun
         int num;
         System.out.print("Enter a positive integer : ");
         num=read.nextInt();
-        EvenOddFun obj=new EvenOddFun();
+        EvenOdd obj=new EvenOddFun();
         obj.check(num);
         read.close();
     }
