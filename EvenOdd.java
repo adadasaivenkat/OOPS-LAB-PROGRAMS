@@ -1,12 +1,8 @@
-import java.util.*;
-public class EvenOdd
+import java.util.Scanner;
+public class EvenOddFun
 {
-    public static void main(String args[])
+    void check(int num)
     {
-        Scanner read=new Scanner(System.in);
-        int num;
-        System.out.print("Enter a positive integer : ");
-        num=read.nextInt();
         if(num==0)
         {
             System.out.print("The given number "+num+" is neither even nor odd");
@@ -26,6 +22,15 @@ public class EvenOdd
         {
             System.out.print("Please enter a positive number!");
         }
+    }
+    public static void main(String[] args)
+    {
+        Scanner read=new Scanner(System.in);
+        int num;
+        System.out.print("Enter a positive integer : ");
+        num=read.nextInt();
+        EvenOddFun obj=new EvenOddFun();
+        obj.check(num);
         read.close();
     }
 }
