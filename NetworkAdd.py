@@ -26,4 +26,4 @@ else:
 net=[]
 for i in range(0,len(ip)):
     net.append(str(ip[i] & sub[i]))
-print(f"Network address : {".".join(net)}")
+print(f"Network address : {'.'.join(net)}")
